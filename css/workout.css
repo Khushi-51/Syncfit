@@ -1,0 +1,299 @@
+
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+   
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+}
+
+
+header {
+    background-color: #252525;
+    background-image: linear-gradient(to left,#252525, #252525, #252525);
+    color: #fff;
+    padding: 20px;
+    height: 90px;
+}
+.logo {
+   width: 270px; 
+    vertical-align: middle;
+    margin-left: 0px;
+    float: left;
+    
+}
+.logo img{
+    height: 90px;
+    width: auto;
+    display: inline-block;
+    
+}
+nav div{
+    float: left;
+}
+nav ul{
+    text-align: center;
+    height: auto;
+    font-size: 17px;
+    float: right;
+    width: 100%;
+   
+}
+.navmid{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+nav ul li ul{
+    position: absolute;
+    background-color:#333;
+    color: white;
+    display: none;
+    width:80px;
+    border-radius: .5px;
+    margin-left: 360px;
+    margin-top: 3px;
+
+}
+
+nav ul li:hover > ul{
+    display: block;
+}
+
+nav ul li ul li{
+    display: block;
+    border-bottom: 1px solid black;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding-top: 2px;
+    background-color: #333;
+
+}
+nav ul li a i{
+    font-size: 28px;
+    margin-top: 27px;
+    margin-left: -20px;
+}
+.searchbox{
+    width: 195px;
+    background-color: #ffcc00;
+    border:2px solid black;
+    margin-top: 28px;
+    margin-left: 20px;
+}
+
+.search{
+    float:right;
+    height: 23px;
+    border-radius: 1px;
+    border-color: transparent;
+    border-left: 1px solid black;
+    
+}
+.searchbox i{
+    font-size: 19.5px;
+    margin-top: 1px;
+    margin-left: 1.75px;
+    color: black;
+}
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+.workout-plans {
+    padding: 20px;
+    background-color: rgb(107, 98, 98);
+    margin-bottom: 20px;
+   
+}
+
+.workout-plans h1 {
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+  
+}
+
+.workout-plan {
+    margin-bottom: 30px;
+   
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+#workout1{
+    background-color: #ff6600ae;
+}
+
+#workout2{
+    background-color:#ffcc007c;
+
+}
+
+#workout3{background-color: rgba(165, 42, 42, 0.454);}
+
+.workout-plan h2 {
+    font-size: 23px;
+    margin-bottom: 10px;
+   
+}
+
+.workout-plan p {
+    color: #2e2020;
+    margin-bottom: 10px;
+}
+
+.workout-plan ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.video-demo {
+    margin-top: 20px;
+}
+
+.video-demo h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.video-demo iframe {
+    width: 100%;
+    height: 500px; 
+}
+
+.advanced-footer {
+    background-color: #252525;
+    color: #fff;
+    padding: 20px 0;
+    
+}
+
+.footer-logo {
+    text-align: center;
+
+}
+
+.footer-logo img, p, div{
+    margin-bottom: 10px;
+}
+
+.footer-logo img {
+    
+    height: 70px ;
+    width: 130px;
+   
+}
+
+.footer-logo p {
+    font-weight: bold;
+   
+}
+.footer-logo, .footer-contact, .footer-links, .footer-social{
+    display: inline-block;
+    margin-left: 81px;
+    margin-right: 100px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links{
+    font-size: 17px;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+    
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-social h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.footer-social ul li {
+    margin-bottom: 5px;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+.footer-contact h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+.footer-content ul {
+    list-style: none;
+}
+
+.footer-content ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-content ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.footer-content ul li a:hover {
+    color: #ff6600;
+}
+
+
+
+
